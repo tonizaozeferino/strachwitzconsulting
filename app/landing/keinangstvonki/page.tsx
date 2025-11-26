@@ -88,10 +88,10 @@ const KeinenAngstVonKiPage = () => {
                         </ul>
                         <h3 className="text-2xl font-bold text-primary mb-4">Die Hürden</h3>
                         <ul className="list-disc list-inside text-gray-600 space-y-2">
-                            <li>„Zu technisch für mich"</li>
-                            <li>„Keine Zeit dafür"</li>
-                            <li>„Datenschutz-Bedenken"</li>
-                            <li>„Zu viel Risiko"</li>
+                            <li>&ldquo;Zu technisch für mich&rdquo;</li>
+                            <li>&ldquo;Keine Zeit dafür&rdquo;</li>
+                            <li>&ldquo;Datenschutz-Bedenken&rdquo;</li>
+                            <li>&ldquo;Zu viel Risiko&rdquo;</li>
                         </ul>
                     </div>
                     <div className="bg-white p-8 rounded-lg shadow-lg">
@@ -100,7 +100,7 @@ const KeinenAngstVonKiPage = () => {
                             Sie arbeiten wie vor 5–10 Jahren, während andere bereits KI als Assistenten einsetzen und deutlich produktiver geworden sind.
                         </p>
                         <p className="text-gray-600">
-                            Gleichzeitig hören Sie überall: „KI wird alles verändern." Doch im Alltag passiert: nichts. CRM und ERP fühlen sich nach Pflicht an, nicht nach Hilfe. Die gute Nachricht: Das muss nicht so bleiben. Mit den richtigen ersten Schritten können Sie KI sofort als praktischen Helfer in Ihren Arbeitsalltag integrieren.
+                            Gleichzeitig hören Sie überall: &ldquo;KI wird alles verändern.&rdquo; Doch im Alltag passiert: nichts. CRM und ERP fühlen sich nach Pflicht an, nicht nach Hilfe. Die gute Nachricht: Das muss nicht so bleiben. Mit den richtigen ersten Schritten können Sie KI sofort als praktischen Helfer in Ihren Arbeitsalltag integrieren.
                         </p>
                     </div>
                 </div>
@@ -190,7 +190,7 @@ const KeinenAngstVonKiPage = () => {
                 <h3 className="text-xl font-bold text-primary mb-2">
                   {index + 1}. {item.title}
                 </h3>
-                <p className="text-gray-600 mb-4 italic">"{item.situation}"</p>
+                <p className="text-gray-600 mb-4 italic">&ldquo;{item.situation}&rdquo;</p>
                 <div className="bg-gray-100 p-4 rounded-md">
                   <p className="font-mono text-sm text-gray-800">{item.prompt}</p>
                 </div>
@@ -248,7 +248,7 @@ const KeinenAngstVonKiPage = () => {
           <div className="max-w-4xl mx-auto">
             <div className="text-center mb-12">
               <h2 className="text-3xl lg:text-4xl font-heading font-bold text-primary mb-4">
-                Sicherheit & Grenzen: Do's and Don'ts
+                Sicherheit & Grenzen: Do&apos;s and Don&apos;ts
               </h2>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -264,7 +264,7 @@ const KeinenAngstVonKiPage = () => {
                 </ul>
               </div>
               <div className="bg-red-100 p-6 rounded-lg">
-                <h3 className="text-2xl font-bold text-red-800 mb-4">✗ Don't: Das sollten Sie vermeiden</h3>
+                <h3 className="text-2xl font-bold text-red-800 mb-4">✗ Don&apos;t: Das sollten Sie vermeiden</h3>
                 <ul className="space-y-2 text-red-700">
                   <li>Verträge, Gehaltslisten oder interne Geheimnisse 1:1 einfügen</li>
                   <li>Zahlen oder Fakten ungeprüft übernehmen</li>
@@ -295,7 +295,7 @@ const KeinenAngstVonKiPage = () => {
               KI ist kein Hype mehr, sondern ein zusätzlicher Mitarbeiter, der immer Zeit hat und nie müde wird. Sie müssen nicht alles auf einmal machen und auch kein Technik-Experte sein. Es reicht, wenn Sie klein anfangen und Schritt für Schritt Ihre Prozesse optimieren.
             </p>
             <div className="text-lg text-gray-600 mb-8 font-semibold italic max-w-3xl mx-auto">
-              „Der beste Zeitpunkt, mit KI anzufangen, war gestern. Der zweitbeste ist heute."
+              &ldquo;Der beste Zeitpunkt, mit KI anzufangen, war gestern. Der zweitbeste ist heute.&rdquo;
             </div>
             <Link href="/kontakt" className="bg-primary text-white font-bold py-4 px-8 rounded-lg hover:bg-secondary transition-colors text-xl">
                 Kostenloses 15-Minuten-Gespräch
