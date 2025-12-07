@@ -3,17 +3,16 @@ import CTABar from '@/components/ui/CTABar';
 
 export const metadata: Metadata = {
   title: 'Digitale Transformation für den Mittelstand - Strachwitz Consulting',
-  description: 'BAFA-zertifizierter Berater für digitale Transformation. Staatliche Förderung durch das BAFA "go-digital" Programm.',
+  description: 'Erfahrener Berater für digitale Transformation. Praxiserprobte Methoden aus über 20 Jahren Führungserfahrung im Mittelstand.',
   openGraph: {
     title: 'Digitale Transformation für den Mittelstand - Strachwitz Consulting',
-    description: 'BAFA-zertifizierter Berater für digitale Transformation.',
+    description: 'Erfahrener Berater für digitale Transformation mit bewährten Methoden.',
   },
 };
 
 const entryServices = [
   {
     title: 'KI-Readiness Assessment für Vertrieb & Operations',
-    badge: 'BAFA-förderfähig',
     description: 'Der perfekte Einstieg in Ihre digitale Transformation. In nur 1-2 Wochen analysiere ich Ihre Vertriebs- und Exportprozesse und zeige konkret auf, wo KI Umsatz steigert und Kosten senkt.',
     deliverables: [
       'Analyse Ihrer aktuellen Vertriebs- und Operationsprozesse',
@@ -22,11 +21,10 @@ const entryServices = [
       'Klare Roadmap: Quick Wins (4-8 Wochen) vs. strategische Initiativen (6-12 Monate)',
       'Technologie-Empfehlungen (CRM-Tools, Forecasting-Plattformen, Automatisierung)'
     ],
-    suitable: 'Unternehmen mit €10-100M Umsatz, die wissen möchten, wo sie mit KI anfangen sollen'
+    suitable: 'Unternehmen mit €50M-1Mrd Umsatz, die wissen möchten, wo sie mit KI anfangen sollen'
   },
   {
     title: 'KI-gestützte Vertriebsoptimierung',
-    badge: 'BAFA-förderfähig',
     description: 'Ich habe Vertriebsorganisationen von €30M auf €43M und Exportstrukturen mit +50% Wachstum aufgebaut. Ich implementiere KI-gestützte Forecasts und Lead-Scoring, die Ihre Abschlussrate um 20% erhöhen und Reporting-Aufwand um 40% senken.',
     deliverables: [
       'Lead-Generation und -Qualifizierungs-Automatisierung',
@@ -45,7 +43,6 @@ const entryServices = [
   },
   {
     title: 'Operations Excellence durch KI-gestützte Planung',
-    badge: 'BAFA-förderfähig',
     description: 'Ich habe Vertriebs- und Exportstrukturen für Molkereien, Käseproduzenten und Lebensmittelhersteller aufgebaut. Ich kenne die Herausforderungen schwacher Forecasts, manueller Reportings und verpasster Geschäfte. Ich implementiere ein KI-gestütztes Sales Cockpit, das Forecast-Fehler um 30-50% reduziert, Win-Rates um 20% steigert und Reporting-Zeit um 40% senkt.',
     deliverables: [
       'Supply Chain und Inventory-Analyse',
@@ -67,7 +64,6 @@ const entryServices = [
 const comprehensivePackages = [
   {
     title: 'Vertriebstransformation Komplett',
-    badge: 'BAFA-förderfähig',
     description: 'End-to-End Sales Digitalisierung mit vollständiger Analyse, AI-powered Tools und Team Enablement über 2-3 Monate.',
     includes: [
       'KI-Readiness Assessment',
@@ -78,7 +74,6 @@ const comprehensivePackages = [
   },
   {
     title: 'Operations Excellence Paket',
-    badge: 'BAFA-förderfähig',
     description: 'Operative Effizienz durch KI/Digital Tools mit Fokus auf Supply Chain, Demand Planning und Dateninfrastruktur.',
     includes: [
       'Operations Diagnostik',
@@ -89,7 +84,6 @@ const comprehensivePackages = [
   },
   {
     title: 'Wachstums-Accelerator',
-    badge: 'BAFA-förderfähig',
     description: 'Umsatzwachstum durch Sales- und Channel-Optimierung mit vollständiger Digitalisierungsstrategie und Multi-Channel Go-to-Market.',
     includes: [
       'Vertriebs-Digitalisierungs-Roadmap',
@@ -100,47 +94,6 @@ const comprehensivePackages = [
   }
 ];
 
-const bafaSteps = [
-  {
-    step: '1',
-    title: 'Kostenlose Erstberatung',
-    description: 'Wir prüfen, ob Ihr Unternehmen BAFA-förderfähig ist und welches Paket am besten passt.'
-  },
-  {
-    step: '2',
-    title: 'BAFA-Antrag',
-    description: 'Ich unterstütze Sie bei der Antragstellung (ca. 2-4 Wochen Bearbeitungszeit).'
-  },
-  {
-    step: '3',
-    title: 'Projektdurchführung',
-    description: 'Nach Förderzusage starten wir mit der Beratung (typisch 3-6 Monate).'
-  },
-  {
-    step: '4',
-    title: 'Abschluss & Erstattung',
-    description: 'Nach Projektabschluss erhalten Sie die staatliche Förderung.'
-  }
-];
-
-const faqs = [
-  {
-    question: 'Was bedeutet BAFA-Förderung?',
-    answer: 'Das Bundesamt für Wirtschaft und Ausfuhrkontrolle (BAFA) unterstützt mittelständische Unternehmen bei der Digitalisierung durch Zuschüsse zu Beratungsleistungen.'
-  },
-  {
-    question: 'Wie lange dauert die Antragstellung?',
-    answer: 'Ich unterstütze Sie bei der Antragstellung. Die Bearbeitung durch BAFA dauert in der Regel 2-4 Wochen.'
-  },
-  {
-    question: 'Was passiert, wenn der Antrag abgelehnt wird?',
-    answer: 'Das kommt selten vor bei förderfähigen Unternehmen. Wir prüfen vorab Ihre Eignung.'
-  },
-  {
-    question: 'Kann ich mehrere Projekte fördern lassen?',
-    answer: 'Ja, nach Abschluss eines Projekts können weitere Förderanträge gestellt werden.'
-  }
-];
 
 export default function KIBeratungPage() {
   return (
@@ -153,10 +106,10 @@ export default function KIBeratungPage() {
               Digitale Transformation für den Mittelstand
             </h1>
             <p className="text-xl lg:text-2xl text-gray-200 mb-8 leading-relaxed">
-              Als BAFA-zertifizierter Berater unterstütze ich mittelständische Unternehmen bei der digitalen Transformation mit bewährten Methoden aus über 15 Jahren Führungserfahrung.
+              Ich unterstütze mittelständische Unternehmen bei der digitalen Transformation mit bewährten Methoden aus über 20 Jahren Führungserfahrung in Vertrieb und Operations.
             </p>
             <p className="text-lg text-gray-300 max-w-3xl mx-auto">
-              Profitieren Sie von staatlicher Förderung durch das BAFA &quot;go-digital&quot; Programm.
+              Praxiserprobte Strategien für messbare Ergebnisse – keine Theorie, sondern Methoden, die ich selbst erfolgreich umgesetzt habe.
             </p>
           </div>
         </div>
@@ -175,11 +128,11 @@ export default function KIBeratungPage() {
             <div className="text-center">
               <div className="bg-accent rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
                 <svg className="w-8 h-8 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1" />
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
                 </svg>
               </div>
-              <h3 className="text-lg font-heading font-bold text-primary mb-2">BAFA-Förderung</h3>
-              <p className="text-gray-600">reduziert Ihre Investitionskosten erheblich</p>
+              <h3 className="text-lg font-heading font-bold text-primary mb-2">ROI-Fokussiert</h3>
+              <p className="text-gray-600">Investitionen mit klarem Return on Investment</p>
             </div>
             
             <div className="text-center">
@@ -227,13 +180,10 @@ export default function KIBeratungPage() {
           <div className="space-y-12">
             {entryServices.map((service, index) => (
               <div key={index} className="bg-white rounded-xl p-8 shadow-lg">
-                <div className="flex items-start justify-between mb-4">
+                <div className="mb-4">
                   <h3 className="text-2xl font-heading font-bold text-primary">
                     {service.title}
                   </h3>
-                  <span className="bg-accent text-primary px-3 py-1 rounded-full text-sm font-semibold">
-                    {service.badge}
-                  </span>
                 </div>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
@@ -294,13 +244,10 @@ export default function KIBeratungPage() {
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
             {comprehensivePackages.map((pkg, index) => (
               <div key={index} className="bg-gray-50 rounded-xl p-6 border-l-4 border-secondary">
-                <div className="flex items-start justify-between mb-4">
+                <div className="mb-4">
                   <h3 className="text-xl font-heading font-bold text-primary">
                     {pkg.title}
                   </h3>
-                  <span className="bg-accent text-primary px-2 py-1 rounded-full text-xs font-semibold">
-                    {pkg.badge}
-                  </span>
                 </div>
                 
                 <p className="text-gray-600 mb-4 leading-relaxed">
@@ -351,69 +298,6 @@ export default function KIBeratungPage() {
         </div>
       </section>
 
-      {/* BAFA Process Section */}
-      <section className="py-16 lg:py-24 bg-white">
-        <div className="container-custom">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl lg:text-4xl font-heading font-bold text-primary mb-4">
-              So funktioniert die BAFA-Förderung
-            </h2>
-          </div>
-          
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-            {bafaSteps.map((step, index) => (
-              <div key={index} className="text-center">
-                <div className="bg-primary text-white rounded-full w-12 h-12 flex items-center justify-center mx-auto mb-4 text-xl font-bold">
-                  {step.step}
-                </div>
-                <h3 className="text-lg font-heading font-bold text-primary mb-2">
-                  {step.title}
-                </h3>
-                <p className="text-gray-600 text-sm">
-                  {step.description}
-                </p>
-              </div>
-            ))}
-          </div>
-          
-          <div className="mt-12 bg-accent rounded-xl p-6">
-            <h3 className="text-xl font-heading font-bold text-primary mb-4">
-              Förderfähig sind Unternehmen mit:
-            </h3>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-              <ul className="space-y-2">
-                <li className="flex items-center">
-                  <svg className="w-5 h-5 text-secondary mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                  </svg>
-                  <span className="text-gray-600">3-100 Mitarbeitern</span>
-                </li>
-                <li className="flex items-center">
-                  <svg className="w-5 h-5 text-secondary mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                  </svg>
-                  <span className="text-gray-600">Rechtsform: GmbH, AG, OHG, KG</span>
-                </li>
-              </ul>
-              <ul className="space-y-2">
-                <li className="flex items-center">
-                  <svg className="w-5 h-5 text-secondary mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                  </svg>
-                  <span className="text-gray-600">Geschäftstätigkeit seit mehr als 2 Jahren</span>
-                </li>
-                <li className="flex items-center">
-                  <svg className="w-5 h-5 text-secondary mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                  </svg>
-                  <span className="text-gray-600">Keine finanzielle Schieflage</span>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* Next Steps Section */}
       <section className="py-16 lg:py-24 bg-gray-50">
         <div className="container-custom">
@@ -440,13 +324,13 @@ export default function KIBeratungPage() {
                   2
                 </div>
                 <h3 className="text-lg font-heading font-bold text-primary mb-2">
-                  BAFA-Förderfähigkeit
+                  Bedarfsanalyse
                 </h3>
                 <p className="text-gray-600 text-sm">
-                  Wir prüfen Ihre Eignung
+                  Wir analysieren Ihre spezifischen Anforderungen
                 </p>
               </div>
-              
+
               <div className="bg-white rounded-xl p-6 shadow-lg">
                 <div className="bg-primary text-white rounded-full w-12 h-12 flex items-center justify-center mx-auto mb-4 text-xl font-bold">
                   3
@@ -455,10 +339,10 @@ export default function KIBeratungPage() {
                   Maßgeschneidertes Angebot
                 </h3>
                 <p className="text-gray-600 text-sm">
-                  Ich erstelle ein passendes Angebot
+                  Ich erstelle ein passendes Konzept
                 </p>
               </div>
-              
+
               <div className="bg-white rounded-xl p-6 shadow-lg">
                 <div className="bg-primary text-white rounded-full w-12 h-12 flex items-center justify-center mx-auto mb-4 text-xl font-bold">
                   4
@@ -467,34 +351,10 @@ export default function KIBeratungPage() {
                   Transformation starten
                 </h3>
                 <p className="text-gray-600 text-sm">
-                  Nach Förderzusage starten wir
+                  Wir setzen die Strategie gemeinsam um
                 </p>
               </div>
             </div>
-          </div>
-        </div>
-      </section>
-
-      {/* FAQ Section */}
-      <section className="py-16 lg:py-24 bg-white">
-        <div className="container-custom">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl lg:text-4xl font-heading font-bold text-primary mb-4">
-              Häufig gestellte Fragen
-            </h2>
-          </div>
-          
-          <div className="max-w-4xl mx-auto space-y-6">
-            {faqs.map((faq, index) => (
-              <div key={index} className="bg-gray-50 rounded-xl p-6">
-                <h3 className="text-lg font-heading font-bold text-primary mb-3">
-                  {faq.question}
-                </h3>
-                <p className="text-gray-600">
-                  {faq.answer}
-                </p>
-              </div>
-            ))}
           </div>
         </div>
       </section>
@@ -508,10 +368,10 @@ export default function KIBeratungPage() {
                 António Freiherr von Strachwitz
               </h2>
               <p className="text-lg font-heading font-bold text-secondary mb-2">
-                BAFA-zertifizierter Berater für Digitalisierung
+                Experte für Digitale Transformation
               </p>
               <p className="text-gray-600">
-                Über 15 Jahre Führungserfahrung in Vertrieb und Operations
+                Über 20 Jahre Führungserfahrung in Vertrieb und Operations
               </p>
             </div>
           </div>

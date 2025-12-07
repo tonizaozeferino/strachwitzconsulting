@@ -107,7 +107,7 @@ export default function UeberUnsPage() {
                   Kurzprofil
                 </h3>
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  António Freiherr von Strachwitz verfügt über mehr als 15 Jahre Führungserfahrung im deutschen Mittelstand und internationalen Konzernen. Seine Expertise umfasst Vertriebsführung, digitale Transformation und internationale Geschäftsentwicklung.
+                  António Freiherr von Strachwitz verfügt über mehr als 20 Jahre Führungserfahrung im deutschen Mittelstand und internationalen Konzernen. Seine Expertise umfasst Vertriebsführung, digitale Transformation und internationale Geschäftsentwicklung.
                 </p>
                 
                 <div className="space-y-4">
@@ -115,13 +115,13 @@ export default function UeberUnsPage() {
                     <svg className="w-5 h-5 text-secondary mt-0.5 mr-3 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
                       <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                     </svg>
-                    <span className="text-gray-600">15+ Jahre Führungserfahrung</span>
+                    <span className="text-gray-600">20+ Jahre Führungserfahrung</span>
                   </div>
                   <div className="flex items-start">
                     <svg className="w-5 h-5 text-secondary mt-0.5 mr-3 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
                       <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                     </svg>
-                    <span className="text-gray-600">Internationale Projekte in 20+ Ländern</span>
+                    <span className="text-gray-600">Internationale Projekte in 30+ Ländern</span>
                   </div>
                   <div className="flex items-start">
                     <svg className="w-5 h-5 text-secondary mt-0.5 mr-3 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">

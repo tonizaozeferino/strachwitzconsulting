@@ -244,7 +244,7 @@ export default function BayernDigitalBoostPage() {
                 BAFA-zertifizierter Berater und Interim Executive
               </p>
               <p className="text-gray-600">
-                Mehr als 15 Jahre Erfahrung im Aufbau digitaler Geschaeftsmodelle in Lebensmittel, Maschinenbau und B2B-Dienstleistungen.
+                Mehr als 20 Jahre Erfahrung im Aufbau digitaler Geschaeftsmodelle in Lebensmittel, Maschinenbau und B2B-Dienstleistungen.
               </p>
             </div>
           </div>
