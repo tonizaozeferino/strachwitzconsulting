@@ -11,6 +11,7 @@ const navigation = [
   { name: 'KI-Beratung', href: '/ki-beratung' },
   { name: 'Geschäftsentwicklung', href: '/internationalisierung' },
   { name: 'Branchen', href: '/branchen' },
+  { name: 'Ventures', href: '/ventures', icon: true },
   { name: 'Über uns', href: '/ueber-uns' },
   { name: 'Kontakt', href: '/kontakt' },
 ];
@@ -44,12 +45,17 @@ export default function Header() {
               <Link
                 key={item.name}
                 href={item.href}
-                className={`text-xs font-medium transition-colors duration-200 hover:text-secondary ${
+                className={`text-xs font-medium transition-colors duration-200 hover:text-secondary flex items-center gap-1 ${
                   pathname === item.href
                     ? 'text-secondary border-b-2 border-secondary'
                     : 'text-primary'
                 }`}
               >
+                {item.icon && (
+                  <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
+                  </svg>
+                )}
                 {item.name}
               </Link>
             ))}
@@ -97,12 +103,17 @@ export default function Header() {
                   key={item.name}
                   href={item.href}
                   onClick={closeMenu}
-                  className={`block px-3 py-2 rounded-md text-base font-medium transition-colors duration-200 ${
+                  className={`flex items-center gap-2 px-3 py-2 rounded-md text-base font-medium transition-colors duration-200 ${
                     pathname === item.href
                       ? 'text-secondary bg-accent'
                       : 'text-primary hover:text-secondary hover:bg-gray-50'
                   }`}
                 >
+                  {item.icon && (
+                    <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
+                    </svg>
+                  )}
                   {item.name}
                 </Link>
               ))}
