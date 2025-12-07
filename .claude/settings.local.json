@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run dev:*)",
+      "Bash(npm install:*)",
+      "Bash(npm update:*)",
+      "Bash(npm outdated:*)",
+      "Bash(taskkill:*)",
+      "Bash(del tailwind.config.js)",
+      "Bash(npm uninstall:*)",
+      "Bash(git init:*)",
+      "Bash(git add:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
